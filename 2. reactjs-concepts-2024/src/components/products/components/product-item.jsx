@@ -11,7 +11,7 @@ function ButtonComponent() {
       className={flag ? styles.buttonStyle : styles.buttonStyle2}
       onClick={handleToggle}
     >
-      Click
+      Click to see changes
     </button>
   );
 }
