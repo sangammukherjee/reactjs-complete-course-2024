@@ -5,6 +5,13 @@
   color: white;
 }
 
+.buttonStyle2 {
+  background-color: rgb(194, 57, 57);
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(20, 11, 11);
+}
+
 .productTitle {
   font-size: 20px;
   color: rgb(109, 12, 12);
