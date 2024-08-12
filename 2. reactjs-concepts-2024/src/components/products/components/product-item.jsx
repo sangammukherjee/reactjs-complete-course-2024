@@ -1,7 +1,19 @@
 import styles from "./product-item.module.css";
+import { useState } from "react";
 
 function ButtonComponent() {
-  return <button className={styles.buttonStyle}>Click</button>;
+  function handleToggle() {
+    setFlag(!flag);
+  }
+  const [flag, setFlag] = useState(false);
+  return (
+    <button
+      className={flag ? styles.buttonStyle : styles.buttonStyle2}
+      onClick={handleToggle}
+    >
+      Click to see changes
+    </button>
+  );
 }
 
 function ProductItem({ singleProductItem, key }) {

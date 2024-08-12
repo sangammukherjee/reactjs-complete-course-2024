@@ -44,7 +44,6 @@ function ProductList({ name, city, listOfProducts }) {
       ) : (
         <h4>Hello</h4>
       )}
-
       <div>
         <button
           style={{

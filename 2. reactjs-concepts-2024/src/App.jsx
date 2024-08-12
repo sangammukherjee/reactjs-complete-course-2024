@@ -19,7 +19,7 @@ function App() {
       {/* <ClassBasedComponent /> */}
       {/* <FunctionalComponent /> */}
 
-      {/* <ProductList listOfProducts={dummyProductData} name="Roxy" city="ABC" /> */}
+      <ProductList listOfProducts={dummyProductData} name="Roxy" city="ABC" />
       {/* <Users /> */}
       {/* <UseReducerExample /> */}
       {/* <ContextButtonComponent />
